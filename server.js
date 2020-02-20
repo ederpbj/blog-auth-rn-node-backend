@@ -9,8 +9,8 @@ const { MongoClient } = require("mongodb");
 ); */
 
 //T1
-const url =
-  "mongodb://dev:e609f4f6ac550e8d96b64f835bd36fad@ds135750.mlab.com:35750/auth-jwt-node-react-native";
+const url = 'http://localhost:27017'
+  //"mongodb://dev:e609f4f6ac550e8d96b64f835bd36fad@ds135750.mlab.com:35750/auth-jwt-node-react-native";
 
 const mongoose = require('mongoose'); mongoose.set('useCreateIndex', true);
 
